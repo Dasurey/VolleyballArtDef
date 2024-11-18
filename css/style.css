@@ -19,10 +19,10 @@ img.logo {
     gap:var(--bs-nav-underline-gap)
 }
 
-.navbar-light .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-primary .navbar-nav .show > .nav-link,
+.navbar-primary .navbar-nav .active > .nav-link,
+.navbar-primary .navbar-nav .nav-link.show,
+.navbar-primary .navbar-nav .nav-link.active {
     color: var(--primary-universal-color);
 }
 
@@ -47,10 +47,10 @@ img.logo {
         gap: 0;
     }
 
-    .navbar-light .navbar-nav .show > .nav-link,
-    .navbar-light .navbar-nav .active > .nav-link,
-    .navbar-light .navbar-nav .nav-link.show,
-    .navbar-light .navbar-nav .nav-link.active {
+    .navbar-primary .navbar-nav .show > .nav-link,
+    .navbar-primary .navbar-nav .active > .nav-link,
+    .navbar-primary .navbar-nav .nav-link.show,
+    .navbar-primary .navbar-nav .nav-link.active {
         color: inherit;
     }
 
@@ -70,7 +70,7 @@ img.logo {
         color: inherit;
         border-bottom-color: inherit;
     }
-    .navbar-light .navbar-nav .nav-link:hover {
+    .navbar-primary .navbar-nav .nav-link:hover {
         color: var(--fifth-universal-color);
     }
 }
