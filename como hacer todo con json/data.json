@@ -1,0 +1,23 @@
+{
+  "storeInfo": {
+    "title": "Información de la tienda",
+    "links": [
+      {
+        "href": "index.html",
+        "text": "¿Quienes Somos?"
+      },
+      {
+        "href": "shop.html",
+        "text": "Nuestros Productos"
+      },
+      {
+        "href": "review.html",
+        "text": "Sus Reseñas"
+      },
+      {
+        "href": "contact.html",
+        "text": "Contáctenos"
+      }
+    ]
+  }
+}

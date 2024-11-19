@@ -1,0 +1,102 @@
+{
+    "header": {
+        "title": "Mi aplicación",
+        "subtitle": "Esto es una aplicación de ejemplo"
+    },
+    "main": {
+        "title": "Bienvenido a mi aplicación",
+        "subtitle": "Esto es una aplicación de ejemplo"
+    },
+    "footer": {
+        "primary": {
+            "information": {
+                "logo": {
+                    "src": "../img/marca/LogotipoHorizontalVolleyballArtCPelota.png",
+                    "alt": "Logo de VolleyballArt"
+                },
+                "location": {
+                    "title": "El Palomar, Provincia de Buenos Aires, Argentina",
+                    "href": "https://maps.app.goo.gl/7MX8x8KwHTCVS8Qs7"
+                },
+                "email": {
+                    "title": "volleyballart@gmail.com",
+                    "href": "mailto:"
+                },
+                "phone": {
+                    "title": "+54 9 11 1234-5678",
+                    "href": "tel:"
+                }
+            },
+            "information-store": {
+                "title": "Información de la tienda",
+                "who-are-we": {
+                    "title": "¿Quiénes somos?",
+                    "href": "../index.html"
+                },
+                "our-products": {
+                    "title": "Nuestros Productos",
+                    "href": "../shop.html"
+                },
+                "your-reviews": {
+                    "title": "Sus Reseñas",
+                    "href": "../reviews.html"
+                },
+                "contact-us": {
+                    "title": "Contáctenos",
+                    "href": "../contact.html"
+                }
+            },
+            "resource": {
+                "title": "Recursos",
+                "privacy-policy": {
+                    "title": "Política de privacidad",
+                    "href": ""
+                },
+                "terms-and-conditions": {
+                    "title": "Términos y condiciones",
+                    "href": ""
+                },
+                "follow-up": {
+                    "title": "Seguimiento Correo Argentino",
+                    "href": "https://www.correoargentino.com.ar/formularios/e-commerce"
+                },
+                "consumer-protection": {
+                    "title": "Defensa al Consumidor",
+                    "href": "https://www.argentina.gob.ar/produccion/consumidor"
+                },
+                "faq": {
+                    "title": "Preguntas Frecuentes",
+                    "href": ""
+                }
+            },
+            "social-networks": {
+                "title": "Redes Sociales",
+                "instagram": {
+                    "href": ""
+                },
+                "facebook": {
+                    "href": ""
+                },
+                "whatsapp": {
+                    "href": ""
+                },
+                "x": {
+                    "href": ""
+                }
+            }
+        },
+        "secondary": {
+            "rights-reserved":{
+                "text-1": "Copyright &copy; ",
+                "page": "VolleyballArt",
+                "page-href": "../index.html",
+                "year": " - 2024",
+                "text-2": "Todos los derechos reservados."
+            },
+            "payments": {
+                "src": "../img/general/payments.png",
+                "alt": "Medios de pago"
+            }
+        }
+    }
+}
