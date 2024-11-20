@@ -1,0 +1,129 @@
+{
+    "left": {
+        "categories": {
+            "title": "Categorias",
+            "shoes": {
+                "title": "Zapatillas",
+                "men": "Hombre",
+                "women": "Mujer"
+            },
+            "clothing": {
+                "title": "Indumentaria",
+                "jackets-and-hoodies": "Camperas y Buzos",
+                "game-shirts": "Camisetas de Juegos",
+                "t-shirts-and-tank-tops": "Remeras y Musculosas",
+                "leggings-and-shorts": "Calzas y Shorts",
+                "pants": "Pantalones"
+            },
+            "accessories": {
+                "title": "Accesorios",
+                "bags-and-backpacks": "Bolsos y Mochilas",
+                "sleeves": "Manguitas",
+                "socks-and-calf-sleeves": "Medias y Gemeleras",
+                "knee-pads": "Rodilleras",
+                "others": "Otros"
+            },
+            "equipment": {
+                "title": "Equipamiento",
+                "balls": "Pelotas",
+                "nets-and-poles": "Redes y Varillas"
+            }
+        },
+        "footer":{
+            "copyright": {
+                "textOne": "Copyright "
+            }
+        }
+    },
+    "right": {
+        "footer": {
+            "dato": {
+                "logo": {
+                    "href": "index.html",
+                    "src": "img/marca/LogotipoHorizontalVolleyballArtCPelota.png",
+                    "alt": "Logo de Marca"
+                },
+                "address": {
+                    "text": "El Palomar, Provincia de Buenos Aires",
+                    "href": "https://maps.app.goo.gl/7MX8x8KwHTCVS8Qs7"
+                },
+                "email": {
+                    "text": "volleyballart@gmail.com",
+                    "href": "mailto:volleyballart@gmail.com"
+                },
+                "phone": {
+                    "text": "+54 011 1234-5678",
+                    "href": "tel:+5401112345678"
+                }
+            },
+            "store-info": {
+                "title": "Información de la tienda",
+                "about-us": {
+                    "text": "¿Quienes Somos?",
+                    "href": "index.html"
+                },
+                "products": {
+                    "text": "Nuestros Productos",
+                    "href": "shop.html"
+                },
+                "reviews": {
+                    "text": "Sus Reseñas",
+                    "href": "review.html"
+                },
+                "contact-us": {
+                    "text": "Contáctenos",
+                    "href": "contact.html"
+                }
+            },
+            "resources": {
+                "title": "Recursos",
+                "privacy-policy": {
+                    "text": "Políticas de Privacidad",
+                    "href": ""
+                },
+                "terms-conditions": {
+                    "text": "Términos y Condiciones",
+                    "href": ""
+                },
+                "tracking": {
+                    "text": "Seguimiento Correo Argentino",
+                    "href": "https://www.correoargentino.com.ar/formularios/e-commerce"
+                },
+                "consumer-defense": {
+                    "text": "Defensa al Consumidor",
+                    "href": "https://autogestion.produccion.gob.ar/consumidores"
+                },
+                "faq": {
+                    "text": "Preguntas Frecuentes",
+                    "href": ""
+                }
+            },
+            "social-media": {
+                "title": "Redes Sociales",
+                "instagram": {
+                    "href": ""
+                },
+                "facebook": {
+                    "href": ""
+                },
+                "whatsapp": {
+                    "href": ""
+                },
+                "twitter": {
+                    "href": ""
+                }
+            },
+            "copyright": {
+                "page": {
+                    "text": "VolleyballArt",
+                    "href": "index.html"
+                },
+                "textTwo": " - 2024. Todos los derechos reservados."
+            },
+            "payment-methods": {
+                "src": "img/general/payments.png",
+                "alt": "Medios de pago"
+            }
+        }
+    }
+}
