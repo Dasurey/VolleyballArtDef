@@ -3,8 +3,7 @@
         "head": {
             "icon": [
                 {
-                    "src": "img/marca/LogoConPelota.ico",
-                    "alt": "Icono de Marca"
+                    "href": "img/marca/LogoConPelota.ico"
                 }
             ]
         },
