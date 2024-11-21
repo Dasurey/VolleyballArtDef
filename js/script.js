@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     } else if (keys[0] === 'right') {
                         nameVariable = data.right;
                         position = 'right';
+                    } else if (keys[0] === 'general') {
+                        nameVariable = data.general;
+                        position = 'general';
                     }
 
                     // Navegar por las claves del JSON

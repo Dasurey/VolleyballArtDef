@@ -182,21 +182,28 @@
                         "alt": "Logo de Marca"
                     }
                 ],
-                "address": [
+                "address": {
+                    "text": "El Palomar, Buenos Aires, Argentina"
+                },
+                "address-href": [
                     {
-                        "href": "https://maps.app.goo.gl/7MX8x8KwHTCVS8Qs7",
-                        "text": "El Palomar, Provincia de Buenos Aires"
+                        "href": "https://maps.app.goo.gl/7MX8x8KwHTCVS8Qs7"
                     }
                 ],
                 "email": {
-                        "href": "mailto:",
-                        "text": "volleyballart@gmail.com"
-
+                    "text": "volleyballart@gmail.com"
                 },
-                "phone": [
+                "email-href": [
                     {
-                        "href": "tel:",
-                        "text": "+54 011 6000-0000"
+                        "href": "mailto:"
+                    }
+                ],
+                "phone": {
+                    "text": "+54 011 1234-5678"
+                },
+                "phone-href": [
+                    {
+                        "href": "tel:"
                     }
                 ]
             },
@@ -241,9 +248,11 @@
                         "href": ""
                     }
                 ],
-                "tracking": [
+                "tracking": {
+                    "text": "Seguimiento Correo Argentino"
+                },
+                "tracking-href": [
                     {
-                        "text": "Seguimiento Correo Argentino",
                         "href": "https://www.correoargentino.com.ar/formularios/e-commerce"
                     }
                 ],
