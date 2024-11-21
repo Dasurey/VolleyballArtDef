@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
+    const loadingIndicator = document.getElementById('loading-indicator');
+    loadingIndicator.style.display = 'block'; // Mostrar el indicador de carga
 
     // Función para cargar el archivo JSON y aplicar las traducciones
     function applyTranslations(data) {
@@ -79,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateElements('data-name');
         updateElements('data-name-inside');
 
-        
+        loadingIndicator.style.display = 'none'; // Ocultar el indicador de carga
     }
 
     // Función para cargar el contenido del archivo HTML
