@@ -110,13 +110,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Cargar el contenido de los archivos HTML y el archivo JSON, luego aplicar las traducciones
     Promise.all([
-        loadHTMLContent('../archivo-general/head-content.html', headElement),
-        loadHTMLContent('../archivo-general/header-content.html', headerElement),
-        loadHTMLContent('../archivo-general/nav-primary-content.html', navPrimaryElement),
-        loadHTMLContent('../archivo-general/nav-secondary-content.html', navSecondaryElement),
-        loadHTMLContent('../archivo-general/nav-secondary-second-content.html', navSecondarySecondElement),
-        loadHTMLContent('../archivo-general/footer-content.html', footerElement),
-        loadJSON('../lenguage/general/es.json')
+        loadHTMLContent('archivo-general/head-content.html', headElement),
+        loadHTMLContent('archivo-general/header-content.html', headerElement),
+        loadHTMLContent('archivo-general/nav-primary-content.html', navPrimaryElement),
+        loadHTMLContent('archivo-general/nav-secondary-content.html', navSecondaryElement),
+        loadHTMLContent('archivo-general/nav-secondary-second-content.html', navSecondarySecondElement),
+        loadHTMLContent('archivo-general/footer-content.html', footerElement),
+        loadJSON('lenguage/general/es.json')
     ]).then((results) => {
         console.log('Contenido HTML y JSON cargado completamente');
         const jsonData = results[6]; // El archivo JSON es el último en la lista de resultados
