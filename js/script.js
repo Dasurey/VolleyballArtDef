@@ -105,7 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const headerElement = document.getElementById('headerId');
     const navPrimaryElement = document.getElementById('nav-primaryId');
     const navSecondaryElement = document.getElementById('nav-secondaryId');
-    const navSecondarySecondElement = document.getElementById('nav-secondary-secondId');
     const footerElement = document.getElementById('footerId');
 
     // Cargar el contenido de los archivos HTML y el archivo JSON, luego aplicar las traducciones
@@ -114,12 +113,25 @@ document.addEventListener('DOMContentLoaded', () => {
         loadHTMLContent('archivo-general/header-content.html', headerElement),
         loadHTMLContent('archivo-general/nav-primary-content.html', navPrimaryElement),
         loadHTMLContent('archivo-general/nav-secondary-content.html', navSecondaryElement),
-        loadHTMLContent('archivo-general/nav-secondary-second-content.html', navSecondarySecondElement),
         loadHTMLContent('archivo-general/footer-content.html', footerElement),
         loadJSON('lenguage/general/es.json')
     ]).then((results) => {
         console.log('Contenido HTML y JSON cargado completamente');
-        const jsonData = results[6]; // El archivo JSON es el último en la lista de resultados
+        const jsonData = results[5]; // El archivo JSON es el último en la lista de resultados
         applyTranslations(jsonData);
+        
+        // Lógica para cambiar las clases del <nav> dependiendo de la URL actual
+        const navbar = document.getElementById("navbar-vertical");
+        if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+            navbar.classList.add("show");
+            navbar.classList.remove("position-absolute", "bg-light");
+            navbar.style.width = "";
+            navbar.style.zIndex = "";
+        } else {
+            navbar.classList.add("position-absolute", "bg-light");
+            navbar.classList.remove("show");
+            navbar.style.width = "calc(100% - 30px)";
+            navbar.style.zIndex = "1";
+        }
     });
 });
